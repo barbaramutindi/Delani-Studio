@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#showcase {
+    /* background-image: url('../assets/backgrounds/h_image.jpg'); */
+    background-image: url('./assets/backgrounds/h_img.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#showcase h1 {
+    color: white;
+    margin: 10px 20px;
+    padding: 15px;
+    text-align: center;
+}
+#showcase p {
+    color: white;
+    font-size: 15px;
+}
+
+#mousebtn{
+    padding: 30px;
+}
+#About {
+    background: white;
+    height: 30vh;
+}
+#About h1 {
+    text-align: center;
+    padding: 15px;
+}
+#About p {
+    text-align: center;
+    padding: 10;
+}
+#Services {
+    background: url('./assets/backgrounds/s_image.jpg');
+    height: 40vh;
+}
+#Services h1 {
+    text-align: center;
+    padding: 80px;
+    color: white;
+}
+#Services p {
+    text-align: center;
+    color: white;
+}
+#WhatWeDo {
+    background: white;
+    height: 20vh;
+    text-align: center;
+}
+#WhatWeDo h1 {
+    text-align: center;
+    padding: 10px;
+    padding-right: 10px;
+}
+.portfolio {
+    background: white;
+    text-align: center;
+    padding: 60px;
+}
+.portfolio h1 {
+    padding: 10px;
+}
+#Portfolio {
+    background: white;
+    text-align: center;
+    padding: 30px;
+}
+#Portfolio .row {
+    padding: 0%;
+    width: 0%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+textarea,
+input {
+    background-color: white;
+    opacity: 0.5;
+}
+.contact {
+    background: url('./assets/backgrounds/c_image.jpg');
+}
+.contact h1 {
+    padding: 15px;
+}
+
+#footer {
+    background: white;
+    height: 30vh;
+}
+#footer .container {
+    padding: 60px;
+    text-align: center;
+}
+#footer p {
+    text-align: center;
+}
