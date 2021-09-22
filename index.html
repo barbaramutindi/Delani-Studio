@@ -1,12 +1,185 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="https://cdnjs.cloudfare.com/ajax/libs/mdbootsrap/4.8.10/css/mdb.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+    <link href="js/script.js">
+    <title>DELANI STUDIO</title>
 </head>
+
 <body>
+    <header id="showcase" class="showcase">
+        <div class="logo">
+            <img src="./assets/logo/logo.png">
+        </div>
+        <h1>WELCOME <br><br>TO DELANI STUDIO</h1>
+        <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGN IN A FUN ENVIRONMENT</p>
+        <a href=#About id="mousebtn"> <img src="./assets/mouse_click.png"></a>
+
+    </header>
+    <section id="About">
+        <h1>ABOUT US</h1>
+        <p>When you work with us, you are part of a team committed collaborators. All aspects of our software
+            development process are integrated, interactive and agile.<br><br>
+            Our approach unifies design, development and product management to create exceptional products.<br><br>
+            We start each project by understanding your business goals, the user's needs and the product requirements
+            <br><br>
+            Then we help translate them into effective and elegant solutions.
+        </p>
+    </section>
+    <section id="Services">
+        <h1>Services</h1>
+        <p>Before we sign a contract or write a line of code our team will spend the necessary time needed to understand
+            our product vison<br><br>
+            The outcome of this scoping session is a proposal or high-level statement of work.<br><br>
+            based on your requirements, we can provide acomplete offering or just the pieces you need.
+        </p>
+    </section>
+    <div id="WhatWeDo">
+        <h1>WHAT WE DO</h1>
+        <div class="wrapper">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="./assets/services_icons/design_icon.png"><br>
+                    <p>DESIGN</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="./assets/services_icons/dev_icon.png"><br>
+                    <p>DEVELOPMENT</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="./assets/services_icons/product_icon.png"><br>
+                    <p>PRODUCT</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="portfolio">
+        <div class="portfolio container-fluid">
+            <h1 class="text-center">PORTFOLIO</h1><br>
+            <div class="row port col-space">
+                <div class="col-sm-3 p-2">
+                    <div id="portfolio">
+                        <img id="portfolio-img" src="./assets/portfolio/work4.jpg" alt="" width="250">
+                        <div class="portfolio-text">
+                            <p class="text-port">Dark Block</p>
+                        </div>
+                    </div>
+                </div>
     
+                <div class="col-sm-3 p-2">
+                    <div id="portfolio">
+                        <img id="portfolio-img" src="./assets/portfolio/work3.jpg" alt="" width="250">
+                        <div class="portfolio-text">
+                            <p class="text-port">Mighty Ontario</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-sm-3 p-2">
+                    <div id="portfolio">
+                        <img id="portfolio-img" src="./assets/portfolio/work2.jpg" alt="" width="250">
+                        <div class="portfolio-text">
+                            <p class="text-port">Diamond Ruby</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-sm-3 p-2">
+                    <div id="portfolio">
+                        <img id="portfolio-img" src="./assets/portfolio/work1.jpg" alt="" width="250">
+                        <div class="portfolio-text">
+                            <p class="text-port">Jim Carrey</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="row col-space">
+                <div class="col-sm-3 p-2">
+                    <div id="portfolio">
+                        <img id="portfolio-img" src="./assets/portfolio/work5.jpg" alt="" width="250">
+                        <div class="portfolio-text">
+                            <p class="text-port">Have a Good day</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-sm-3 p-2">
+                    <div id="portfolio">
+                        <img id="portfolio-img" src="./assets/portfolio/work6.jpg" alt="" width="250">
+                        <div class="portfolio-text">
+                            <p class="text-port">Buttons</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-sm-3 p-2">
+                    <div id="portfolio">
+                        <img id="portfolio-img" src="./assets/portfolio/work8.jpg" alt="" width="250">
+                        <div class="portfolio-text">
+                            <p class="text-port">Burned Log</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-sm-3 p-2">
+                    <div id="portfolio">
+                        <img id="portfolio-img" src="./assets/portfolio/work7.jpg" alt="" width="250">
+                        <div class="portfolio-text">
+                            <p class="text-port">Burned Logo Mock-Up</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><br><br><br>
+    </section>
+    
+
+    <div class="contact" id="contact">
+        <h1 class="text-center">CONTACT US</h1>
+        <div class="col-md-12">
+            <form>
+                <div class="row">
+                    <div class="col-md-2"></div>
+                    <input type="text" class="col-md-4 form-control name" name="name" placeholder="NAME..." 
+                        required> &nbsp; &nbsp;
+                    <input type="email" class="col-md-4 form-control email" name="email" placeholder="EMAIL..."
+                        required>    
+                </div>
+                <br>
+
+                <div class="row">
+                    <div class="col-md-2"></div>
+                    <textarea class="form-control col-md-8 text" name="message" id="message" rows="12"></textarea>
+                    <div class="col-md-2"></div>
+                </div><br>
+                <button class="btn btn-success mx-auto d-block submit" type="submit">Submit</button>
+            </form><br<br>>
+        </div>
+    </div>
+
+    <footer id="footer">
+        <div class="container">
+            <img src="./assets/social_icons/twitter.png">
+            <img src="./assets/social_icons/dribble.png">
+            <img src="./assets/social_icons/facebook.png">
+            <img src="./assets/social_icons/g_plus.png">
+            <img src="./assets/social_icons/skype.png">
+            <img src="./assets/social_icons/stumble_upon.png">
+            <img src="./assets/social_icons/behance.png">
+            <img src="./assets/social_icons/pinterest.png">
+            <img src="./assets/social_icons/flickr.png">
+        </div>
+        <p>DELANI STUDIO</p>
+        <p>2020</p>
+    </footer>
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/script.js"></script>
 </body>
+
 </html>
